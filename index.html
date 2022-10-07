@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>My Passport</h1>
+    <div id="passport">
+        <div>
+            <input type="text" oninput="fullname()" value="" id="name" placeholder="Full Name"><br>
+            <input type="email" oninput="email()" value=""  id="gmail" placeholder="Email"><br>
+            <input type="number" oninput="phonenumber()" value="" id="phone" placeholder="Phone Number"><br>
+        </div>
+
+            <div class="passport-display">
+                <img src="my-passport.jpeg" alt="Mofe">
+        
+                <p><b>Name:</b> <span id="myname"></span></p>
+                <p><b>Email:</b> <span id="myemail"></span></p>
+                <p><b>Phone-Number:</b> <span id="myphonenumber"></span></p>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+
+#passport {
+    width: 550px;
+    height: 350px;
+    margin: auto;
+    display: flex;
+    padding: 30px;
+    background-color: rgba(173, 216, 230, 0.409);
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px turquoise ;
+}
+
+input {
+    width: 350px;
+    padding: 20px;  
+}
+
+
+#name {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+#gmail {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+#phone {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.passport-display{
+    padding: 20px;
+}
+
+.passport-display p{
+    padding: 8px;
+}
+
