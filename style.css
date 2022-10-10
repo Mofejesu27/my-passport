@@ -22,6 +22,16 @@ h1{
     box-shadow: 1px 2px 5px turquoise ;
 }
 
+@media screen and (max-width: 780px) {
+    #passport{
+        display: flex;
+        flex-wrap: wrap;
+        height: fit-content;
+        width: 100%;
+    }
+    
+}
+
 input {
     width: 350px;
     padding: 20px;  
